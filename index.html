@@ -4,18 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Landing Page | 4Cars</title>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="logo-navegacao">
-                <img src="../projeto/img/logo.png" alt="logo" width="160px">
+                <img src="./img/logo.png" alt="logo" width="160px">
                 <p><a href="html.index">Pagina inicial</a></p>
                 <p><a href="trabalhe-conosco.html">Trabalhe conosco</a></p>
             </div>
         </header>
+
+        <section class="carros-luxo">
+            <h2>Carros de Luxo</h2>
+                <!-- Slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/audi-luxo.png" alt="audi carro de luxo">
+                        </div>
+                        <div class="project-info">
+                            <h2>Audi A3</h2>
+                            <p>Audi A3 Sedan 2022 2.0 TFSI a gasolina.</p>
+                            <button class="botao">Reserve agora</button>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/mercedes-benz-clacouper.webp" alt="audi carro de luxo">
+                        </div>
+                        <div class="project-info">
+                            <h2>Mercedes Benz E300</h2>
+                            <p>Mercedes Benz Class E300 Sedam a gasolina.</p>
+                            <button class="botao">Reserve agora</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/bmw.png" alt="audi carro de luxo">
+                        </div>
+                        <div class="project-info">
+                            <h2>BMW M3</h2>
+                            <p>BMW M3 Competition é o motor 3.0 a gasolina.</p>
+                            <button class="botao">Reserve agora</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Inicialização do slide -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          /* autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          }, */
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
