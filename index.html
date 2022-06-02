@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Landing Page | 4Cars</title>
 </head>
+
 <body>
     <div class="container">
         <header>
-            <div class="logo-navegacao">
-                <img src="./img/logo.png" alt="logo" width="160px">
-                <p><a href="html.index">Pagina inicial</a></p>
-                <p><a href="trabalhe-conosco.html">Trabalhe conosco</a></p>
+            <div class="div-logo-navegacao">
+                <img src="../img/logo.png" alt="logo" width="160px">
+                <p><a href="index.html" class="botoes-navegacao">Pagina inicial</a></p>
+                <p><a href="trabalhe-conosco.html" class="botoes-navegacao">Trabalhe conosco</a></p>
             </div>
+            <img src="../img/header2.png" alt="logo" class="imagem-header">  
         </header>
 
         <section class="carros-luxo">
@@ -59,6 +62,106 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
+        <main>
+            <div class="main-carros">
+                <section>
+                    <img src="../img/main-carros.png" alt="carros" class="imagem-carro">
+                </section>
+                <section class="main-texto">
+                    <p class="main-titulo"><b>ALUGUE E RETIRE SEU CARRO SEM BUROCRACIA</b></p>
+                    <p class="main-titulo2">Planos com modelos populares ou modelos luxuosos</p>
+                    <p class="main-titulo"><b>Escolha a opção ideal para você</b></p>
+                </section>
+            </div>
+        </main>
+        <section class="moldura-carros-populares">
+            <section class="superior-carros-populares">
+                <h2>CARROS POPULARES</h2>
+                <input placeholder="Buscar Modelo:" type="text" id="nome">
+            </section>
+            <section class="carros-populares">
+                <section class="card">
+                    <section class="sec1-card">
+                        <p class="titulo-card"><b>GOL</b></p>
+                        <p>1.0 MPI</p>
+                        <img class="img-card"
+                            src="https://ofertas.vw.com.br/wp-content/uploads/2021/02/Gol_1_0_MY22__3_4_frente_551x301px.png"
+                            alt="Gol 1.0 MPI">
+                    </section>
+                    <section class="sec2-card">
+                        <p class="detalhes-carro">Air-bag</p>
+                        <p class="detalhes-carro2">Ar Condicionado</p>
+                        <p class="detalhes-carro">4 portas</p>
+                        <p class="detalhes-carro">ABS</p>
+                    </section>
+                    <section class="sec3-card">
+                        <button><b>RESERVE AGORA</b></button>
+                    </section>
+                </section>
+                <section class="card">
+                    <section class="sec1-card">
+                        <p class="titulo-card"><b>VOYAGE</b></p>
+                        <p>1.0 MPI</p>
+                        <img class="img-card"
+                            src="https://ofertas.vw.com.br/wp-content/uploads/2021/02/Voyage_10_MY22_3_4_FrenteN_551x301px.png"
+                            alt="Voyage 1.0 MPI">
+                    </section>
+                    <section class="sec2-card">
+                        <p class="detalhes-carro">Air-bag</p>
+                        <p class="detalhes-carro2">Ar Condicionado</p>
+                        <p class="detalhes-carro">4 portas</p>
+                        <p class="detalhes-carro">ABS</p>
+                    </section>
+                    <section class="sec3-card">
+                        <button><b>RESERVE AGORA</b></button>
+                    </section>
+                </section>
+                <section class="card">
+                    <section class="sec1-card">
+                        <p class="titulo-card"><b>POLO</b></p>
+                        <p>Highline 200 TSI</p>
+                        <img class="img-card"
+                            src="https://ofertas.vw.com.br/wp-content/uploads/2021/05/Polo_Comfortline_MY22_3_4_Frente_551x301px.png"
+                            alt="Polo 200 TSI">
+                    </section>
+                    <section class="sec2-card">
+                        <p class="detalhes-carro">Air-bag</p>
+                        <p class="detalhes-carro2">Ar Condicionado</p>
+                        <p class="detalhes-carro">4 portas</p>
+                        <p class="detalhes-carro">ABS</p>
+                    </section>
+                    <section class="sec3-card">
+                        <button><b>RESERVE AGORA</b></button>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="grid-links">
+            <div>
+                links 1
+            </div>
+            <div>
+                links 2
+            </div>
+            <div>
+                links 3
+            </div>
+            <div>
+                link 4
+            </div>
+        </section>
+        <footer>
+            <div class="footer-redes-sociais">
+                <p class="redes-sociais-texto"><b>Redes sociais</b></p>
+                <div class="redes-sociais-icones">
+                        <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" width="25" height="25"/></a>
+                        <a href="http://whatsapp.com" target="_blank"><img src="../img/whatsapp.png" width="25" height="25"/></a>
+                        <a href="http://instagram.com" target="_blank"><img src="../img/instagram.png" width="25" height="25"/></a> 
+                </div>
+            </div>
+        </footer>
+
     </div>
 
     <!-- Swiper JS -->
@@ -84,4 +187,5 @@
         });
       </script>
 </body>
+
 </html>
