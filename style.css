@@ -46,24 +46,27 @@ header {
     display: flex;
     justify-content:space-around;
     padding: 70px;
-    font-size: 25px;
+    font-size: 25px
 }
 
 .carros-populares {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
+    /* position: relative; */
     border: 3px solid rgba(218, 40, 4, 0.7);
-    width: 450px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
 }
 
 .card:hover {
@@ -76,13 +79,15 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .titulo-card {
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
     padding: 8px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .sec2-card {
@@ -90,14 +95,26 @@ header {
    align-items: center;
    justify-content: space-between;
    padding: 10px;
+   width: 100%;
+   height: 100%;
 }
 
 .detalhes-carro {
-    border: 1px solid black;
-    padding: 6px;
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.15);
+    padding: 0px;
     border-radius: 12%;
-    margin: 0 12px;
- 
+    margin: 0 6px;
+    width: 16%;
+    text-align: center;
+}
+
+.detalhes-carro2 {
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.15);
+    padding: 0px;
+    border-radius: 12%;
+    margin: 0 6px;
+    width: 35%;
+    text-align: center;
 }
 
 .detalhes-carro:hover {
@@ -109,7 +126,12 @@ header {
     display: flex;
     align-items: center;
     padding: 15px;
+    width: 90%;
  }
+
+.img-card {
+    width: 100%;
+}
 
  button {
      padding: 10px;
@@ -129,6 +151,8 @@ main {
     height: 100%;
     /* border: 1px solid red; */
 }
+
+/* SEÇÃO MAIN CARROS  */
 
 .main-carros {
     text-align: center;
@@ -154,27 +178,20 @@ main {
     padding: 8px;
 }
 
-.aab {
-    height: 50vh;
-    text-align: center;
-    border: 1px solid orange;
-    margin-bottom: 3%;
-}
-
 /* LINKS UTEIS */
 
 .grid-links {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(4, 180px);
     justify-content: space-around;
-    height: 50vh;
+    height: 40vh;
 }
 
 .grid-links>div {
     border: 1px solid black;
     padding: 3%;
 }
-
 
 /* FOOTER */
 
@@ -201,8 +218,6 @@ footer {
     gap: 1%;
 }
 
-
-
  /* RESPONSIVIDADE */
 
 @media screen and (min-width: 300px) and (max-width: 750px) {
@@ -219,5 +234,22 @@ footer {
         grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
         gap: 10px 0;
         margin-bottom: 100px;
+    }
+
+    .superior-carros-populares {
+        box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.15);
+        margin: 15px 0;
+        padding: 16px;
+        align-items: center;
+    }
+
+    .superior-carros-populares>h2 {
+        font-size: 18px;
+    }
+
+    input {
+        border: 2px solid rgba(218, 40, 4, 0.7);
+        font-size: 12px;
+        width: 100px;
     }
 }
