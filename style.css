@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 8px 1px rgb(0 0 0 / 15%);
+}
+
+.logo-navegacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: 0;
+}
+
+.logo-navegacao>p>a {
+    text-decoration: 0;
+    color: black;
+}
