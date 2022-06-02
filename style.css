@@ -38,6 +38,38 @@ header {
     color: black;
 }
 
+/* SEÇÃO MAIN CARROS  */
+
+main {
+    position: relative;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.main-carros {
+    text-align: center;
+    margin-bottom: 3%;
+
+}
+
+.imagem-carro {
+    width: 70%;
+    text-align: center;
+}
+
+.main-texto {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    box-shadow: 1px 2px 8px 1px rgb(255, 92, 92, 15%);
+}
+
+.main-texto>p {
+    font-size: 26px;
+    padding: 8px;
+}
+
 /* SLIDE */
 .carros-luxo {
   display: flex;
