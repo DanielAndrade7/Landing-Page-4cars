@@ -4,7 +4,7 @@
 
 link do surge: bawdy-hole.surge.sh
 
-**Trabalharam neste projeto:** Daniel Andrade, Igor Castro e Joclelson 
+**Trabalharam neste projeto:** Daniel Andrade, Igor Castro e Joclelson Rodrigues.
 
 *Desenvolvido após 2 semanas de aulas de html e css.*
 
