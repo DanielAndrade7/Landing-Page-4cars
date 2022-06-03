@@ -34,12 +34,12 @@ header {
     align-items: center;
     gap: 15px;
     justify-content: space-between;
-    text-decoration: 0;
+    text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
 }
 .botoes-navegacao {
-    text-decoration: 0;
+    text-decoration: none;
     color: black;
 }
 
@@ -469,7 +469,6 @@ footer i:hover {
     header img {
         width: 100px;
     }
-    
 
     .main-texto > p {
         font-size: 12px;
@@ -478,15 +477,11 @@ footer i:hover {
     .foot-sub {
         display: flex;
         flex-direction: column;
-
     }
 
     form {
         display: flex;
         flex-direction: column;
-    }
-    .logo-foot img {
-        /* margin-top: 8px; */
     }
 
     footer input {
