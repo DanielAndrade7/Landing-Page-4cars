@@ -2,7 +2,7 @@
 
 ### Empresa fictícia: 4Cars
 
-link do surge:
+link do surge: bawdy-hole.surge.sh
 
 **Trabalharam neste projeto:** Daniel Andrade, Igor Castro e Joclelson 
 
@@ -20,15 +20,15 @@ A página também foi projetada para ser responsiva, fazendo com que seu conteú
 
 ### Funcionalidades/não funcionalidades do projeto
 
-Barra de navegação superior:  O texto "trabalhe conosco" está referenciando uma outra página, porém esta outra página não existe. Todo o resto está funcional, levando à seções dentro da pagina principal.
+Barra de navegação superior:  O texto "trabalhe conosco" está referenciando uma outra página, porém esta outra página não existe, e a logo da direita do cabeçalho também não leva para outra página. Todo o resto está funcional, levando à seções dentro da pagina principal.
 
 Seções da página: Botões "reserve agora" não funcionam.
 
-Parte inferior da página: Botões das redes sociais funcionam e abrem uma outra página, porém estão levando para as pagina principal destas rede sociais, e não para a da empresa, pois é fictícia.
+Parte inferior da página: Botões das redes sociais funcionam e abrem uma outra página, porém estão levando para as pagina principal destas rede sociais, e não para a da empresa, pois é fictícia. Os outros textos que deveriam levar para páginas externas não estão funcionando, estão apenas para demonstração.
 
 
 
 ### Prints da landing-page
 
-https://prnt.sc/tUgqB_aU54tQ
+https://prnt.sc/tUgqB_aU54tQ - 
 https://prnt.sc/zVCrhDpbx3GM
