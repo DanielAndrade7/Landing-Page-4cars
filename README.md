@@ -30,6 +30,5 @@ Parte inferior da página: Botões das redes sociais funcionam e abrem uma outra
 
 ### Prints da landing-page
 
-![image-20220603135156229](C:\Users\igorc\AppData\Roaming\Typora\typora-user-images\image-20220603135156229.png)
-
-![image-20220603141150549](C:\Users\igorc\AppData\Roaming\Typora\typora-user-images\image-20220603141150549.png)
+https://prnt.sc/tUgqB_aU54tQ
+https://prnt.sc/zVCrhDpbx3GM
