@@ -29,18 +29,18 @@ header {
     justify-content: space-between;
     box-shadow: 1px 2px 8px 1px rgb(0 0 0 / 15%);
 }
-
 .div-logo-navegacao {
     display: flex;
     align-items: center;
     gap: 15px;
     text-decoration: 0;
 }
-
 .botoes-navegacao {
     text-decoration: 0;
     color: black;
 }
+
+
 
 .botoes-navegacao:hover {
     transition: 0.3s;
@@ -54,23 +54,21 @@ header {
 
 /* SEÇÃO MAIN CARROS  */
 
+
+/* SEÇÃO MAIN CARROS  */
 main {
     position: relative;
     height: 100%;
     /* border: 1px solid red; */
 }
-
 .main-carros {
     text-align: center;
     margin-bottom: 3%;
-
 }
-
 .imagem-carro {
     width: 70%;
     text-align: center;
 }
-
 .main-texto {
     margin-top: 2%;
     width: 60%;
@@ -78,18 +76,18 @@ main {
     text-align: center;
     box-shadow: 1px 2px 8px 1px rgb(255, 92, 92, 15%);
 }
-
 .main-texto>p {
     font-size: 26px;
     padding: 8px;
 }
+
 
 /* SLIDE */
 .carros-luxo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  height: 600px;
   background-color: lightgray;
   padding: 60px 0px;
 }
@@ -97,18 +95,15 @@ main {
   font-size: 2.2em;
   /* margin-bottom: 30px; */
 }
-
 .swiper {
   width: 80%;
   height: 100%;
   border-radius: 5px;
   /* box-shadow: 0 2px 5px #0003; */
 }
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* background: lightgray; */
 
   /* Centralizar o texto do slide verticalmente */
   display: -webkit-box;
@@ -124,7 +119,6 @@ main {
   -webkit-align-items: center;
   align-items: center;
 }
-
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -141,6 +135,7 @@ main {
  } */
 
 .botao {
+
   padding: 8px 25px;
   margin-top: 18px;
   border-radius: 5px;
@@ -149,11 +144,10 @@ main {
   color: white;
   transition: all 0.3s;
   width: 250px;
+
 }
 .botao:hover{
-  background-color: #FF5C5C;
-  box-shadow: 2px 2px 5px #FF5C5C;
-  color: #fff;
+    box-shadow: 0px 0px 1em #FF5C5C;   
 }
 .swiper-button-next, 
 .swiper-button-prev {
@@ -163,7 +157,9 @@ main {
   background-color: #FF5C5C ;
 }
 
+
 /* SEÇAO CARROS POPULARES  */
+
 
 .moldura-carros-populares {
     display: flex;
@@ -267,8 +263,18 @@ main {
     width: 100%;
 }
 
+
+/*  button {
+     padding: 10px;
+     width: 250px;
+     background-color: rgba(218, 40, 4, 0.7);
+     color: white;
+     border-radius: 4%;
+ } */
+
  /* .busca-modelo {
      border: 2px solid #FF5C5C;
+
      font-size: 20px;
  } */
 
@@ -278,19 +284,17 @@ main {
     /* border: 1px solid red; */
 }
 
-/* SEÇÃO MAIN CARROS  */
 
+/* SEÇÃO MAIN CARROS  */
 .main-carros {
     text-align: center;
     margin-bottom: 3%;
 
 }
-
 .imagem-carro {
     width: 70%;
     text-align: center;
 }
-
 .main-texto {
     margin-top: 2%;
     width: 60%;
@@ -298,14 +302,13 @@ main {
     text-align: center;
     box-shadow: 1px 2px 8px 1px rgb(255, 92, 92, 15%);
 }
-
 .main-texto>p {
     font-size: 26px;
     padding: 8px;
 }
 
-/* LINKS UTEIS */
 
+/* LINKS UTEIS */
 .grid-links {
     margin-top: 30px;
     display: grid;
@@ -313,39 +316,96 @@ main {
     justify-content: space-around;
     height: 40vh;
 }
-
 .grid-links>div {
     border: 1px solid black;
     padding: 3%;
 }
 
+
 /* FOOTER */
-
 footer {
-    margin-top: 10px;
-    height: 12vh;
+    background-color: lightgray;
 }
-
-.footer-redes-sociais {
-    height: 100%;
-}
-
-.redes-sociais-texto {
-    height: 50%;
+.foot-sub {
     display: flex;
+    height: 20vh;
+}
+.logo-foot {
+    display: flex;
+    flex: 2;
     align-items: center;
     justify-content: center;
 }
+.logo-foot img {
+    width: 70px;
+}
 
-.redes-sociais-icones {
+footer form {
     display: flex;
+    flex: 2;
     align-items: center;
     justify-content: center;
-    gap: 1%;
 }
+#input-foot {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.botao-foot {
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-left: 4px;
+    border: none;
+    background-color: #FF5C5C;
+    color: #fff;
+    transition: all 0.3s;
+}
+.botao-foot:hover {
+    box-shadow: 0px 0px 1em #FF5C5C;   
+}
+.info-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: lightgray;
+    height: 30vh;
+}
+.info1 h3, .info2 h3, .info3 h3 {
+    margin: 8px 0;
+    text-align: center;
+}
+.info1 p, .info2 p, .info3 p {
+    margin: 8px 0;
+    text-align: center;
+}
+.info1 p:hover,
+.info2 p:hover,
+.info3 p:hover {
+    color: #FF5C5C;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+.redes-sociais h3 {
+    text-align: center;
+}
+footer i {
+    margin: 4px;
+    font-size: 2em;
+    color: #000;
+    transition: all 0.3s;
+}
+footer i:hover {
+    color: #FF5C5C;  
+}
+#copy {
+    text-align: center;
+    padding: 15px;
+}
+
+
 
  /* RESPONSIVIDADE */
-
 @media screen and (min-width: 300px) and (max-width: 750px) {
     .aab {
         background-color: red;
