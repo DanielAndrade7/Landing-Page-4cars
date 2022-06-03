@@ -6,8 +6,12 @@
     box-sizing: border-box;
 }
 
-
 /* HEADER */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
 }
@@ -28,13 +32,27 @@ header {
 .div-logo-navegacao {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     text-decoration: 0;
 }
 .botoes-navegacao {
     text-decoration: 0;
     color: black;
 }
+
+
+
+.botoes-navegacao:hover {
+    transition: 0.3s;
+    color: #FF5C5C;
+    
+}
+
+.imagem-header:hover {
+    opacity: 85%
+}
+
+/* SEÇÃO MAIN CARROS  */
 
 
 /* SEÇÃO MAIN CARROS  */
@@ -107,14 +125,26 @@ main {
   height: 100%;
   object-fit: cover;
 }
+
+ /* button {
+     padding: 10px;
+     width: 250px;
+     background-color: #FF5C5C;
+     color: white;
+     border-radius: 4%;
+ } */
+
 .botao {
-    padding: 8px 25px;
-    margin-top: 18px;
-    border-radius: 5px;
-    border: none;
-    background-color: #FF5C5C;
-    color: #fff;
-    transition: all 0.3s;
+
+  padding: 8px 25px;
+  margin-top: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FF5C5C;
+  color: white;
+  transition: all 0.3s;
+  width: 250px;
+
 }
 .botao:hover{
     box-shadow: 0px 0px 1em #FF5C5C;   
@@ -126,6 +156,9 @@ main {
 .swiper-pagination-bullet-active {
   background-color: #FF5C5C ;
 }
+
+
+/* SEÇAO CARROS POPULARES  */
 
 
 .moldura-carros-populares {
@@ -150,7 +183,7 @@ main {
 
 .card {
     /* position: relative; */
-    border: 3px solid rgba(218, 40, 4, 0.7);
+    border: 3px solid #FF5C5C;
     width: 300px;
     height: 400px;
     display: flex;
@@ -163,7 +196,7 @@ main {
 
 .card:hover {
     transform: rotateY(360deg);
-    transition: 5s;
+    transition: 10s;
 }
 
 .sec1-card {
@@ -214,6 +247,11 @@ main {
     color: white;
 }
 
+.detalhes-carro2:hover {
+    background-color: black;
+    color: white;
+}
+
 .sec3-card {
     display: flex;
     align-items: center;
@@ -225,6 +263,7 @@ main {
     width: 100%;
 }
 
+
 /*  button {
      padding: 10px;
      width: 250px;
@@ -233,8 +272,9 @@ main {
      border-radius: 4%;
  } */
 
-/*  input {
-     border: 2px solid rgba(218, 40, 4, 0.7);
+ /* .busca-modelo {
+     border: 2px solid #FF5C5C;
+
      font-size: 20px;
  } */
 
@@ -393,9 +433,27 @@ footer i:hover {
         font-size: 18px;
     }
 
-    input {
-        border: 2px solid rgba(218, 40, 4, 0.7);
+    /* .busca-modelo {
+        border: 2px solid #FF5C5C;
         font-size: 12px;
         width: 100px;
+    } */
+
+    .main-carros img {
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .botoes-navegacao {
+        font-size: 12px;
+    }
+
+    .div-logo-navegacao img {
+        width: 100px;
+    }
+
+    .main-texto > p {
+        font-size: 18px;
     }
 }
