@@ -1,14 +1,14 @@
 # Projeto Landing-page
 
-### Empresa fictícia: 4Cars
-
-link do surge: http://ethereal-hot.surge.sh
+link do surge: https://repulsive-year.surge.sh
 
 **Trabalharam neste projeto:** Daniel Andrade, Igor Castro e Joclelson Rodrigues.
 
 *Desenvolvido após 2 semanas de aulas de html e css.*
 
 **Proposta:**  Construir uma versão inicial  simplificada de um website para um cliente.
+
+### Empresa fictícia: 4Cars
 
 **Sobre a empresa:** A 4Cars é uma empresa que tem surfado na onda dos apps de motoristas. Oferece carros para serem alugados por motoristas a um custo razoável, aumentando a oportunidade para quem não têm dinheiro para comprar um carro. Seus concorrentes atuais são empresas tradicionais, como Localiza, e startups, como Kovi. Possui duas linhas de produto: (i) carros populares e (ii) transporte de luxo. Comunica modernidade e baixo custo, se posicionando como uma plataforma totalmente digital e de fácil acesso para motoristas jovens que estão buscando entrar nesse mercado.
 
